@@ -202,7 +202,7 @@ See the above repository for updates as well as full license text. */
 #sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"] {
   --uc-sidebar-width: 48px !important;
   --uc-sidebar-hover-width: 250px;
-  --uc-autohide-sidebar-delay: 300ms; /* Wait 0.3s before hiding sidebar */
+  --uc-autohide-sidebar-delay: 50ms; /* Wait 0.05s before hiding sidebar */
   position: relative;
   min-width: var(--uc-sidebar-width) !important;
   width: var(--uc-sidebar-width) !important;
