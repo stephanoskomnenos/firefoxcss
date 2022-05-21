@@ -81,21 +81,20 @@
   }
 
   :root[uidensity="compact"] #nav-bar {
-    margin-top  : -37px !important;
+    margin-top  : -30px !important;
     height      : 37px !important;
   }
 
   :root:not([uidensity="compact"]):not([uidensity="touch"]) #nav-bar {
-    margin-top  : -44px !important;
+    margin-top  : -37px !important;
     height      : 44px !important;
   }
 
   :root[uidensity="touch"] #nav-bar {
-    margin-top  : -49px !important;
+    margin-top  : -42px !important;
     height      : 49px !important;
   }
 
-  /* Hide tab control in top bar */
   .tabbrowser-tab {
     visibility: collapse;
   }
@@ -205,7 +204,7 @@ See the above repository for updates as well as full license text. */
 
 #sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"] {
   --uc-sidebar-width: 48px !important;
-  --uc-sidebar-hover-width: 250px;
+  --uc-sidebar-hover-width: 200px;
   --uc-autohide-sidebar-delay: 50ms; /* Wait 0.05s before hiding sidebar */
   position: relative;
   min-width: var(--uc-sidebar-width) !important;
